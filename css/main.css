@@ -16,8 +16,9 @@ html,body {
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
+	/*黑白滤镜*/
+    /*-webkit-filter: grayscale(1);
+    filter: grayscale(1);*/
 }
 
 hr {
