@@ -5,10 +5,8 @@
 	<title>skimit 服务器 - 已迁移至 skimit.net</title>
 
 	<script>
-		{
-			alert('已迁移至 skimit.net');
-			location.href='https://skimit.net/';
-		}
+		alert('已迁移至 skimit.net');
+		location.href='https://skimit.net/';
 	</script>
 
 	<link rel="shortcut icon" href="img/server-icon.png">
@@ -16,83 +14,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 
-	<!-- Custom CSS for this template -->
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-
-	<!-- Font 
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	-->
-
-	<!-- Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.min.css">
-	<link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap.min.js">
-
-	<!-- Font Awesome 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
-		integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-	-->
 </head>
 
 <body>
 
-	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
-
-	<!-- Navbar -->
-	<div class="topnav" id="myTopnav">
-		<div class="max-width">
-			<a href="//skimit.net">已迁移至skimit.net</a>
-			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-		</div>
-	</div>
-	<!-- End Navbar -->
-
-	<!-- Header (Banner) -->
 	<header id="head" class="parallax">
 		<h1>skimit 服务器</h1>
 		<h3><a href="//skimit.net">已迁移至 skimit.net</a></h3>
 	</header>
-	<!-- End Header -->
 
-	<!-- Banner 1 -->
-	<section id="banner1" class="parallax">
-		<h1>加入QQ群或者Discord？</h1>
-		<h2>加入加入我们的QQ群<i><a href="https://jq.qq.com/?_wv=1027&k=xviUNMJI">597691030</a></i>或者<i><a href="https://discord.gg/Xf3Q3K4CYw">我们的Discord</a></i></h2>
-	</section>
-	<!-- End Banner 1 -->
-
-	<!-- Vote Section 
-	<section id="vote">
-		<h1>为skimit投票</h1>
-		<hr>
-		<div class="row votelist">
-
-			<div class="col-md voteblock">
-				<img class="res-img-sm" src="https://www.planetminecraft.com/images/layout/planetminecraft_logo.png">
-				<h2>PlanetMinecraft</h2>
-				<a href="https://www.planetminecraft.com/server/skimit/">Vote now</a>
-			</div>
-			<div class="col-md voteblock">
-				<img class="res-img-sm" src="https://tietu.mclists.cn/img/logo_sc.png">
-				<h2>MC Lists</h2>
-				<a href="https://mclists.cn/server/1540.html">Vote now</a>
-			</div>
-
-			<div class="col-md voteblock">
-				<img class="res-img-sm" src="https://minecraft-mp.com/favicon-32x32.png">
-				<h2>MinecraftMP</h2>
-				<a href="https://minecraft-mp.com/server-s308992" target="_blank">Vote now</a>
-			</div>
-		</div>-->
-
-		<!-- Note -->
-		<!--<p>Please note that sometimes rewards can take up to 10 minutes to receive, if you don't receive any rewards, please contact a staff member.</p>-->
-	</section>
-	<!-- End Vote Section -->
-
-	<!-- Footer -->
 	<footer>
 		<div class="footer">
 			<div class="beian">
@@ -107,67 +37,6 @@
 			</div>
 		</div>
 	</footer>
-	<!-- End Footer -->
-
-	<!-- Smooth Scrolling Script (from https://goo.gl/uWLqWu) | Do not touch if you don't know what you're doing! -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script>
-		$(document).ready(function () {
-			// Add smooth scrolling to all links
-			$("a").on('click', function (event) {
-
-				// Make sure this.hash has a value before overriding default behavior
-				if (this.hash !== "") {
-					// Prevent default anchor click behavior
-					event.preventDefault();
-
-					// Store hash
-					var hash = this.hash;
-
-					// Using jQuery's animate() method to add smooth page scroll
-					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-					$('html, body').animate({
-						scrollTop: $(hash).offset().top
-					}, 100, function () {
-
-						// Add hash (#) to URL when done scrolling (default click behavior)
-						window.location.hash = hash;
-					});
-				} // End if
-			});
-		});
-	</script>
-	<!-- End Smooth Scrolling Script -->
-
-	<script>
-		function myFunction() {
-			var x = document.getElementById("myTopnav");
-			if (x.className === "topnav") {
-				x.className += " responsive";
-			} else {
-				x.className = "topnav";
-			}
-		}
-	</script>
-
-	<script>
-		// When the user scrolls down 20px from the top of the document, show the button
-		window.onscroll = function () { scrollFunction() };
-
-		function scrollFunction() {
-			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-				document.getElementById("myBtn").style.display = "block";
-			} else {
-				document.getElementById("myBtn").style.display = "none";
-			}
-		}
-
-		// When the user clicks on the button, scroll to the top of the document
-		function topFunction() {
-			document.body.scrollTop = 0;
-			document.documentElement.scrollTop = 0;
-		}
-	</script>
 
 </body>
 
